@@ -1,1 +1,9 @@
-
+---
+name: inspec-test
+title: Test if Firefox is installed
+summary: Short test to POC Inspec by Chef
+version: 0.1.0
+maintainer: David Mennessiez
+inspec_version: '>= 4.6.3'
+supports:
+    - platform-family: windows
