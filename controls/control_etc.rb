@@ -13,8 +13,6 @@ control 'windows-Firefox' do
   end
 end
 
-title 'Installation validation'
-
 control 'windows-error' do
   title 'Check to be in error'
   desc 'It is a part of the Golden AMI provisioning'
